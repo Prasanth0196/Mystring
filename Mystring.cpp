@@ -84,7 +84,7 @@ int main()
 	mystring obj2="Hello";//argument constructor invoked
 	cout << "obj2:" << obj2.getstring() << endl;
 
-	mystring obj3 = "Prasanth";//argument constructor invoked
+	mystring obj3 = "Pujitha";//argument constructor invoked
 	obj3.concate("Duggineni");
 	cout << "obj3:" << obj3.getstring() << endl;
 	int i = obj2.compare(obj3);
@@ -108,7 +108,7 @@ int main()
 		cout << obj4.getstring() << " is greater than " << obj3.getstring() << endl;
 	else
 		cout << "Both are equal" << endl;
-	mystring obj6 = "prasanth";
+	mystring obj6 = "pujitha";
 	obj6.reverse();
 	cout << obj6.getstring() << endl;
 	return 0;
