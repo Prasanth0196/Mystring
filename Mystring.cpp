@@ -51,7 +51,7 @@ public:
 			str[i] = temp;
 		}
 	}
-	void concate(const char* s)
+	void concate(const char* s) //Concate function
 	{
 		char* str2 = new char[strlen(str) + strlen(s) + 1];
 		strcpy(str2, str);
@@ -84,8 +84,8 @@ int main()
 	mystring obj2="Hello";//argument constructor invoked
 	cout << "obj2:" << obj2.getstring() << endl;
 
-	mystring obj3 = "Pujitha";//argument constructor invoked
-	obj3.concate("Duggineni");
+	mystring obj3 = "Sravani";//argument constructor invoked
+	obj3.concate("Podile");
 	cout << "obj3:" << obj3.getstring() << endl;
 	int i = obj2.compare(obj3);
 	if (i > 0)
@@ -108,7 +108,7 @@ int main()
 		cout << obj4.getstring() << " is greater than " << obj3.getstring() << endl;
 	else
 		cout << "Both are equal" << endl;
-	mystring obj6 = "pujitha";
+	mystring obj6 = "Sravani";
 	obj6.reverse();
 	cout << obj6.getstring() << endl;
 	return 0;
